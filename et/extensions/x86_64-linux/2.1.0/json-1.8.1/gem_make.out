@@ -1,0 +1,12 @@
+/home/mmenon/.rvm/rubies/ruby-2.1.2/bin/ruby extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling parser.c
+linking shared-object json/ext/parser.so
+
+make "DESTDIR=" install
+/usr/bin/install -m 0755 parser.so ./.gem.20141010-26812-1xt4vva/json/ext
+installing default parser libraries
