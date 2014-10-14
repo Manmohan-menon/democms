@@ -59,3 +59,7 @@ gem 'paper_trail', github: 'airblade/paper_trail', branch: 'master'
 gem 'refinerycms-blog', git: 'https://github.com/refinery/refinerycms-blog', branch: 'master'
 
 gem 'refinerycms-settings', github: 'refinery/refinerycms-settings', branch: 'master'
+
+gem 'forem', :github => "radar/forem", :branch => "rails4"
+
+
