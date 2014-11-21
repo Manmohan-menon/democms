@@ -7,6 +7,14 @@ gem 'rails', '4.1.6'
 group :development, :test do
   gem 'sqlite3'
 end
+
+group :production do
+	gem 'pg'
+	gem 'rails_12factor'
+	gem 'fog'
+  	#gem 'rails_stdout_logging'
+  	#gem 'rack-cache'
+end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -61,5 +69,3 @@ gem 'refinerycms-blog', git: 'https://github.com/refinery/refinerycms-blog', bra
 gem 'refinerycms-settings', github: 'refinery/refinerycms-settings', branch: 'master'
 
 gem 'forem', :github => "radar/forem", :branch => "rails4"
-
-
